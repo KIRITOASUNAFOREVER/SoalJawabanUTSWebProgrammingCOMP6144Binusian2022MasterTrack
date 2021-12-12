@@ -1,0 +1,102 @@
+body{
+  margin: 0;
+}
+
+header{
+  background-color: #72DBFD;
+  text-align: center;
+  padding: 0.5rem;
+  border-bottom: 1px solid black;
+}
+
+main{
+  padding: 1rem;
+}
+
+.title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.2rem 0 0.5rem;;
+}
+
+.title h1{
+  font-size: 4.5rem;
+  margin: 0;
+  font-weight:700;
+  font-family: verdana;
+}
+
+.title img{
+  width: 10rem;
+  margin-right: 0.5rem;
+}
+
+.navbar{
+  padding: 0 0 0.6rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  font-family: serif;
+}
+
+.navbar a{
+  text-decoration: none;
+}
+
+.content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 3rem 24rem 7.3rem;
+  font-weight: 500;
+}
+
+.caption{
+  background-color: #87BAD7;
+  font-size: 1.2rem;
+  font-family: verdana;
+  margin-bottom: 0;
+  border: 1px solid black;
+}
+
+.caption h2{
+  text-align: center;
+  margin: 0.5rem 0;
+}
+
+table{
+  border-collapse: collapse;
+  margin-top: 0;
+  background-color: white;
+  padding: 0;
+}
+
+td, th{
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: left;
+  padding: 0.6rem;
+}
+
+th{
+  font-family: verdana;
+}
+
+.notes h4{
+  font-family: verdana;
+  margin: 0 auto;
+}
+
+.notes ul{
+  margin: 0 0.2rem;
+  padding-left: 0.9rem;
+}
+
+.footer{
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 0.25rem;
+}

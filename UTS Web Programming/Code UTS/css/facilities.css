@@ -1,0 +1,107 @@
+body{
+  margin: 0;
+}
+
+header{
+  background-color: #72DBFD;
+  text-align: center;
+  padding: 0.5rem;
+  border-bottom: 1px solid black;
+}
+
+main{
+  padding: 1.2rem 3rem;
+}
+
+.title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.2rem 0 0.5rem;;
+}
+
+.title h1{
+  font-size: 4.5rem;
+  margin: 0;
+  font-weight:700;
+  font-family: verdana;
+}
+
+.title img{
+  width: 10rem;
+  margin-right: 0.5rem;
+}
+
+.navbar{
+  padding: 0 0 0.6rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  font-family: serif;
+}
+
+.navbar a{
+  text-decoration: none;
+}
+
+.content{
+  display: grid;
+  grid-column: 1;
+  margin: 1rem 12rem;
+  background-color: #7377DE;
+  border: 1px solid black;
+}
+
+.content h1{
+  font-size: 2.5rem;
+  font-family: verdana;
+  margin: 1rem auto;
+}
+
+.content section{
+  background-color: #A7DAFF;
+  margin: 0 4rem 2rem;
+  padding: 1rem 2rem;
+  border: 1px solid black;
+}
+
+.content div{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.content p{
+  padding: 0 2rem;
+  text-align: justify;
+  font-size: 1.1rem;
+}
+
+.content h2{
+  font-size: 1.6rem;
+  font-family: verdana;
+  margin: 0.3rem 0 0.5rem 0.3rem;
+}
+
+#img{
+  width: 50%;
+  border: 1px solid black;
+}
+
+#canteen{
+  width: 45%;
+  border: 1px solid black;
+}
+
+#park{
+  width: 45%;
+  border: 1px solid black;
+}
+
+.footer{
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 0.25rem;
+}

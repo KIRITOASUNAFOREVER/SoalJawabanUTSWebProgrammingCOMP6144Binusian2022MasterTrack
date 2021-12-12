@@ -1,0 +1,94 @@
+body{
+  margin: 0;
+}
+
+header{
+  background-color: #72DBFD;
+  text-align: center;
+  padding: 0.5rem;
+  border-bottom: 1px solid black;
+}
+
+main{
+  padding: 1.4rem;
+}
+
+.title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.2rem 0 0.5rem;;
+}
+
+.title h1{
+  font-size: 4.5rem;
+  margin: 0;
+  font-weight:700;
+  font-family: verdana;
+}
+
+.title img{
+  width: 10rem;
+  margin-right: 0.5rem;
+}
+
+.navbar{
+  padding: 0 0 0.6rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  font-family: serif;
+}
+
+.navbar a{
+  text-decoration: none;
+}
+
+.content{
+  margin: 0.5rem 11rem;
+  padding: 1rem 3rem;
+  text-align: justify;
+  background-color: #C95F85;
+  border: 1px solid black;
+}
+
+.content section{
+  background-color: white;
+  padding: 0.5rem 1.3rem 0.2rem;
+  margin-bottom: 1.2rem;
+  border: 1px solid black;
+}
+
+hr{
+  border: 1px solid black;
+}
+
+.content h3{
+  font-size: 1.8rem;
+  font-family: verdana;
+  margin:0.1rem 0;
+}
+
+.content p{
+  font-size: 1.03rem;
+  font-weight: 500;
+}
+
+.content img{
+  display: block;
+  margin: 1.6rem auto;
+  width: 60%;
+  border: 1px solid black;
+}
+
+.spacing {
+  margin-top: 0;
+}
+
+.footer{
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 0.25rem;
+}
